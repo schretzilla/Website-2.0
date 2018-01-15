@@ -5,7 +5,6 @@ import { Component, Directive } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: [
     './app.component.css', 
-    '../style/bootstrap-3.3.6/css/bootstrap.min.css', 
     '../style/home.css'],
 })
 export class AppComponent {
