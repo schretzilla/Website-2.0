@@ -13,8 +13,10 @@
 <!--Northrop Grumman Keypoints-->
 <div class="row">
     <div class="col-md-12">
-        <p class="job-description">{{jobDescription}}</p>
-
+        <p class="job-description">
+          {{jobDescription}}
+            <a *ngIf="link != null" target="_blank" href={{link}} >here</a>
+        </p>           
         <p class="job-team-name">{{teamName}}</p>
         <ul>
             <li class="job-key-points">{{keyPoint1}}</li>

@@ -11,6 +11,7 @@ export class ExperienceComponent implements OnInit {
   @Input() jobTitle: string;
   @Input() jobDescription: string;
   @Input() teamName: string;
+  @Input() link: string;
   @Input() keyPoint1: string;
   @Input() keyPoint2: string;
   @Input() keyPoint3: string;
