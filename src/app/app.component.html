@@ -16,34 +16,86 @@
   <div id="experience-col" class="col-md-12">
     <h1 class=subject-header>Experience</h1>   
 
-    <app-experience 
-      name="Northrop Grumman" timeRange="March/2017-Current" jobTitle="Sotware Engineer"
-      jobDescription="I'm currently working with an agile team of talented engineers designing and developing the best mission planning software for the B1 Bomber."
+    <app-experience-header
+    company="Northrop Grumman" 
+    timeRange="March/2017-Current" 
+    jobTitle="Sotware Engineer" 
+    jobDescription="I'm currently working with an agile team of talented engineers designing and developing the best mission planning software for the B1 Bomber."
+    >
+    </app-experience-header>
+    <app-experience-details
       teamName="B1 Bomber Mission Planning Team"
       keyPoint1="Developed / implemented mission planning algorithms and GUI tools using C# and .Net"
       keyPoint2="Conducted live tests and demos for the application’s new features, enhancements and bug fixes"
       keyPoint3="Engaged in long term application design sessions as well as short term sprint planning meetings">
-    </app-experience>
+      >
+    </app-experience-details>
 
-    <app-experience 
-      name="Cross Country Travler" timeRange="August/2016 - January/2017" jobTitle="Solo Adventurer"
+    <app-experience-header
+      name="Cross Country Travler" 
+      timeRange="August/2016 - January/2017" 
+      jobTitle="Solo Adventurer"
       jobDescription="A solo 6 month adventure across America summarized 
-      using D3"
+        using D3"
+      link="https://schretzilla.github.io/adventure-america/index">
+    </app-experience-header>
+    <app-experience-details
       teamName=""
-      link="https://schretzilla.github.io/adventure-america/index"
       keyPoint1="Volunteered with Samaritan’s Purse helping Louisiana flood victims"
       keyPoint2="Summited 24 of Colorado’s 14,000+ foot mountains"
       keyPoint3="Confirmed strategy and required actions for my five-year plan">
-    </app-experience>
+    >
+  </app-experience-details>
+    
+  <app-experience-header
+  name="University of Pittsburgh Medical Center" 
+  timeRange="July/2014 - July/2016" 
+  jobTitle="ISD Rotational Engineer"
+  jobDescription="A two-year leadership development rotational program designed for its candidates to develop both technical and operational insight">
+</app-experience-header>
+<app-experience-details
+    teamName="UNIX Services"
+    positionTimeRange="(January/2016 – July/2016)"
+    keyPoint1="Served as Systems Engineer managing IBM’s AIX 6 and RHEL 6 operating systems"
+    keyPoint2="Deployed discovery agent across 1700 AIX and RHEL servers"
+    keyPoint3="Scripted Bash and KornShell processes to automate manual tasks">
+  </app-experience-details>
+  <app-experience-details
+    teamName="Enterprise Systems Management"
+    positionTimeRange="(July/2015 – January/2016)"
+    keyPoint1="Drove the creation of the central IT data Warehouse project as the technical lead"
+    keyPoint2="Lead demos and presentations on data warehouse’s structure and data"
+    keyPoint3="Configured and created interactive Splunk management reports and dashboards">
+  </app-experience-details>
+  <app-experience-details
+    teamName="Enterprise Architecture"
+    positionTimeRange="(January/2015 – July/2015)"
+    keyPoint1="Created a new standardized application selection process using Microsoft CRM"
+    keyPoint2="Migrated application statistics and data using C# scripts"
+    keyPoint3="Assisted in a POC for the application archiving process">
+  </app-experience-details>
+  <app-experience-details
+    teamName="Corporate Service Desk"
+    positionTimeRange="(July/2014 – January/2015)"
+    keyPoint1="Developed the full stack for the department’s web based knowledge management tool"
+    keyPoint2="Designed and implemented the SQL database for UPMC’s Self Help tool"
+    keyPoint3="Worked as liaison between management and agents to map application requirements">
+  </app-experience-details>
+  
 
-    <app-experience 
-      name="University of Pittsburgh Medical Center" timeRange="June/2013 - August/2013" jobTitle="Software Engineer Intern"
-      jobDescription="A summer internship between my college junior and senior year"
-      teamName="E Record Custom App Development"
-      keyPoint1="Designed and developed web based tool for administering support for a hierarchy of questions"
-      keyPoint2="Actively participated in the team’s new agile scrum software development process"
-      keyPoint3="Participated in numerous interviews for open Software Engineer position with team">
-    </app-experience>
+    <app-experience-header
+      name="University of Pittsburgh Medical Center" 
+      timeRange="June/2013 - August/2013" 
+      jobTitle="Software Engineer Intern"
+      jobDescription="A summer internship between my college junior and senior year">
+    </app-experience-header>
+    <app-experience-details
+    teamName="E Record Custom App Development"
+    keyPoint1="Designed and developed web based tool for administering support for a hierarchy of questions"
+    keyPoint2="Actively participated in the team’s new agile scrum software development process"
+    keyPoint3="Participated in numerous interviews for open Software Engineer position with team">
+  </app-experience-details>
+
 
   </div> <!-- End Experience -->
 

@@ -6,12 +6,8 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./experience.component.css']
 })
 export class ExperienceComponent implements OnInit {
-  @Input() company: string;
-  @Input() timeRange: string;
-  @Input() jobTitle: string;
-  @Input() jobDescription: string;
+  @Input() link: string; // project links
   @Input() teamName: string;
-  @Input() link: string;
   @Input() keyPoint1: string;
   @Input() keyPoint2: string;
   @Input() keyPoint3: string;

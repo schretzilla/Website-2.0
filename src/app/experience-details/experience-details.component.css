@@ -1,0 +1,23 @@
+.job-team-name {
+  font-weight:normal;
+  color:#000000;
+  font-size:30px;
+  text-align:left;
+  font-family:georgia, serif;
+}
+
+.job-key-points {
+  font-weight:normal;
+  color:#000000;
+  font-size:20px;
+  text-align:left;
+  font-family:georgia, serif;
+}
+
+.small-date {
+  font-weight:normal;
+  color:#000000;
+  font-size:15px;
+  font-family:georgia, serif;
+  line-height:1;
+}

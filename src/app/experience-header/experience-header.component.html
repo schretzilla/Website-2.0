@@ -1,4 +1,3 @@
-<!-- Northrop Grumman Header -->
 <div class="row">
     <div class="col-md-8">
         <h2 id="Northrop-Header" class="company-name">{{company}}</h2>
@@ -8,16 +7,13 @@
         <h2 class="subject-sub-date"><small>{{timeRange}}</small></h2>                                                            
     </div>
 </div>
-<!--Northrop Grumman Header-->
 
-<!--Northrop Grumman Keypoints-->
 <div class="row">
-    <div class="col-md-12">  
-        <app-experience-details
-          teamName={{teamName}}
-          keyPoint1={{keyPoint1}}
-          keyPoint2={{keyPoint2}}
-          keyPoint3={{keyPoint3}}>
-        </app-experience-details>
-    </div>
-</div> <!-- End Northrop Grumman Keypoints -->
+  <div class="col-md-12">
+    <p class="job-description">
+        {{jobDescription}}
+          <a *ngIf="link != null" target="_blank" href={{link}} >here</a>
+    </p>   
+  </div>
+</div>
+      
