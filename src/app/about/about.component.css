@@ -9,3 +9,18 @@
 .contact-info {
   font-size: 15px;
 }
+
+.profile-img{
+  width: 100%;
+}
+
+.subject-header {
+  font-weight:normal;
+  color:#000000;
+  word-spacing:2pt;
+  font-size:70px;
+  text-align:left;
+  font-family:georgia, serif;
+  text-align: center;
+
+}
