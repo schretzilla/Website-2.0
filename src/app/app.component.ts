@@ -1,4 +1,5 @@
 import { Component, Directive } from '@angular/core';
+import { Skill } from './skill-column/skill';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +9,7 @@ import { Component, Directive } from '@angular/core';
     '../style/home.css'],
 })
 export class AppComponent {
-  title = 'app works!';
+  skillObject1 = Skill.skill1;
+  skillObject2 = Skill.skill2;
+  skillObject3 = Skill.skill3;
 }

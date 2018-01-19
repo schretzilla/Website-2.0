@@ -1,0 +1,44 @@
+<div class="col-md-4">
+    <!-- Skills -->
+    <strong>{{skill.category}}</strong>
+    <ul class="list-unstyled">
+        <li>
+            {{skill.highlightedSkillA}}                            
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active"
+                 [style.width]=skill.skillAPercent>
+                  {{skill.skillAPercent}}
+                </div>
+            </div>
+        </li>
+        <li>
+            {{skill.highlightedSkillB}}
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar"
+                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" 
+                [style.width]=skill.skillBPercent>
+                    {{skill.skillBPercent}}
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <p><strong>Others Languages:</strong></p>
+
+    <ul class="list-inline">
+      <li *ngFor="let curExtra of extraList">
+        {{curExtra}}
+      </li>
+        <!-- <li>Java</li>
+        <li>JavaScript/jQuery</li>                        
+        <li>Bash</li>
+        <li>KornShell</li>
+        <li>PHP</li>
+        <li>Ruby</li>
+        <li>VBA</li>
+        <li>HTML</li>
+        <li>CSS</li> -->
+    </ul>
+
+
+</div>

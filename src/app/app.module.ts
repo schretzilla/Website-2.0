@@ -9,6 +9,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { ExperienceDetailsComponent } from './experience-details/experience-details.component';
 import { ExperienceHeaderComponent } from './experience-header/experience-header.component';
 import { ProjectComponent } from './project/project.component';
+import { SkillColumnComponent } from './skill-column/skill-column.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ProjectComponent } from './project/project.component';
     ExperienceDetailsComponent,
     ExperienceHeaderComponent,
     ProjectComponent,
+    SkillColumnComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,4 +29,6 @@ import { ProjectComponent } from './project/project.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule 
+{ 
+}
