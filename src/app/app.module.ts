@@ -13,6 +13,7 @@ import { SkillColumnComponent } from './skill-column/skill-column.component';
 import { EducationComponent } from './education/education.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { CivicEndevaorsComponent } from './civic-endevaors/civic-endevaors.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { CivicEndevaorsComponent } from './civic-endevaors/civic-endevaors.compo
     EducationComponent,
     HobbiesComponent,
     CivicEndevaorsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
