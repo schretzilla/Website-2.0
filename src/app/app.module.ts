@@ -10,6 +10,9 @@ import { ExperienceDetailsComponent } from './experience-details/experience-deta
 import { ExperienceHeaderComponent } from './experience-header/experience-header.component';
 import { ProjectComponent } from './project/project.component';
 import { SkillColumnComponent } from './skill-column/skill-column.component';
+import { EducationComponent } from './education/education.component';
+import { HobbiesComponent } from './hobbies/hobbies.component';
+import { CivicEndevaorsComponent } from './civic-endevaors/civic-endevaors.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,9 @@ import { SkillColumnComponent } from './skill-column/skill-column.component';
     ExperienceHeaderComponent,
     ProjectComponent,
     SkillColumnComponent,
+    EducationComponent,
+    HobbiesComponent,
+    CivicEndevaorsComponent,
   ],
   imports: [
     BrowserModule,
