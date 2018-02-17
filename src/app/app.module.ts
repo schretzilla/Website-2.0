@@ -18,6 +18,7 @@ import { ProjectSacmComponent } from './project-sacm/project-sacm.component';
 
 import { AppRoutingModule }     from './app-routing.module';
 import { HomePageComponent } from './home-page/home-page.component';
+import { ProjectServicebaseComponent } from './project-servicebase/project-servicebase.component';
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import { HomePageComponent } from './home-page/home-page.component';
     FooterComponent,
     ProjectSacmComponent,
     HomePageComponent,
+    ProjectServicebaseComponent,
   ],
   imports: [
     BrowserModule,
