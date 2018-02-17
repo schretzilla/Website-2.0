@@ -19,6 +19,7 @@ import { ProjectSacmComponent } from './project-sacm/project-sacm.component';
 import { AppRoutingModule }     from './app-routing.module';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ProjectServicebaseComponent } from './project-servicebase/project-servicebase.component';
+import { NavHeaderComponent } from './nav-header/nav-header.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { ProjectServicebaseComponent } from './project-servicebase/project-servi
     ProjectSacmComponent,
     HomePageComponent,
     ProjectServicebaseComponent,
+    NavHeaderComponent,
   ],
   imports: [
     BrowserModule,
