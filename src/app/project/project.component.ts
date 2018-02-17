@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ToolInfo } from './tool-info';
+import { UrlObject } from './tool-info';
 
 @Component({
   selector: 'app-project',
@@ -15,7 +15,7 @@ export class ProjectComponent implements OnInit {
   @Input() tools: string;
   @Input() buttonDescription: string;
   @Input() routerLink: string;
-  @Input() toolsList: ToolInfo[];
+  @Input() toolsList: UrlObject[];
 
   constructor() { }
 

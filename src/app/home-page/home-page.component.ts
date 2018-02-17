@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Skill } from '../skill-column/skill';
-import { ToolInfo } from '../project/tool-info';
+import { UrlObject } from '../project/tool-info';
 
 @Component({
   selector: 'app-home-page',
@@ -14,7 +14,15 @@ export class HomePageComponent implements OnInit {
   skillObject2 = Skill.skill2;
   skillObject3 = Skill.skill3;
 
-  sacmSkillList = [ToolInfo.d3Tool, ToolInfo.githubPages, ToolInfo.twitterBootstrap];
+  SmartEggTools = [UrlObject.Esp32, UrlObject.Plotly, UrlObject.Bluma];
+  AlgorithmAnimationTools = [UrlObject.D3V4, UrlObject.TwitterBootstrapV3, UrlObject.GithubPages];
+  AdventureAmericaTools = [UrlObject.D3V4, UrlObject.TwitterBootstrapV3, UrlObject.GithubPages];
+  DynoQuizTools = [UrlObject.Django1, UrlObject.Python2, UrlObject.Angular1, 
+    UrlObject.TwitterBootstrapV2, UrlObject.DjangoRest, UrlObject.PostgreSql9, UrlObject.Heroku ];
+  ServiceBaseTools = [UrlObject.CSharp, UrlObject.DotNetWeb, UrlObject.MicrosoftSqlDb,
+    UrlObject.Jquery, UrlObject.TwitterBootstrapV2, UrlObject.DotNetEntity];
+  SplunkTools = [UrlObject.MicrosoftSqlDb, UrlObject.SSMS, UrlObject.SSIS, UrlObject.Splunk];
+
   constructor() { }
 
   ngOnInit() {

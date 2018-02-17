@@ -14,18 +14,17 @@
       
       <ul class="list-inline">
         <li *ngFor="let curTool of toolsList">
-          <a href={{curTool.toolUrl}} target="_blank">{{curTool.toolName}}</a>
+          <a href={{curTool.url}} target="_blank">{{curTool.name}}</a>
         </li>
       </ul>
       
-      <!-- Area for linked button -->
-          <!-- Case where linking to external webpage -->
-        <a *ngIf="projectUrl!=null"  target="_blank" href={{projectUrl}} 
-        class="btn btn-primary" role="button">{{buttonDescription}}</a>       
+      <!-- Case where linking to external webpage -->
+      <a *ngIf="projectUrl!=null"  target="_blank" href={{projectUrl}} 
+      class="btn btn-primary" role="button">{{buttonDescription}}</a>       
 
-        <!-- Case where linking to local route -->
-        <a *ngIf="routerLink!=null"  routerLink={{routerLink}}
-        class="btn btn-primary" role="button">{{buttonDescription}} </a>        
+      <!-- Case where linking to local route -->
+      <a *ngIf="routerLink!=null"  routerLink={{routerLink}}
+      class="btn btn-primary" role="button">{{buttonDescription}} </a>        
     </div>
   </div>
 </div>
