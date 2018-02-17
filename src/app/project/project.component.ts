@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { ToolInfo } from './tool-info';
 
 @Component({
   selector: 'app-project',
@@ -13,6 +14,8 @@ export class ProjectComponent implements OnInit {
   @Input() description: string;
   @Input() tools: string;
   @Input() buttonDescription: string;
+  @Input() routerLink: string;
+  @Input() toolsList: ToolInfo[];
 
   constructor() { }
 

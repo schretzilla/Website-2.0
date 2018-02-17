@@ -14,6 +14,11 @@ import { EducationComponent } from './education/education.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { CivicEndevaorsComponent } from './civic-endevaors/civic-endevaors.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProjectSacmComponent } from './project-sacm/project-sacm.component';
+
+import { AppRoutingModule }     from './app-routing.module';
+import { HomePageComponent } from './home-page/home-page.component';
+
 
 @NgModule({
   declarations: [
@@ -28,11 +33,14 @@ import { FooterComponent } from './footer/footer.component';
     HobbiesComponent,
     CivicEndevaorsComponent,
     FooterComponent,
+    ProjectSacmComponent,
+    HomePageComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
