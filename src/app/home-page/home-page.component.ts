@@ -21,7 +21,7 @@ export class HomePageComponent implements OnInit {
     UrlObject.TwitterBootstrapV2, UrlObject.DjangoRest, UrlObject.PostgreSql9, UrlObject.Heroku ];
   ServiceBaseTools = [UrlObject.CSharp, UrlObject.DotNetWeb, UrlObject.MicrosoftSqlDb,
     UrlObject.Jquery, UrlObject.TwitterBootstrapV2, UrlObject.DotNetEntity];
-  SplunkTools = [UrlObject.MicrosoftSqlDb, UrlObject.SSMS, UrlObject.SSIS, UrlObject.Splunk];
+  SacmTools = [UrlObject.MicrosoftSqlDb, UrlObject.SSMS, UrlObject.SSIS, UrlObject.Splunk];
 
   constructor() { }
 
